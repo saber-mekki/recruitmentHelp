@@ -1,15 +1,20 @@
-import React from 'react';
-import Layout from './components/Layout';
 
 
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 
-function App() {
+
+export default function App() {
   return (
-    <React.Fragment>
-      <Layout />
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/contact" element={<Layout />}>
+        
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+;
+
