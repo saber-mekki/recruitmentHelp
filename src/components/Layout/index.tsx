@@ -1,8 +1,8 @@
 import React from "react";
+import {Outlet} from "react-router-dom";
 
 import { Header } from "../Header";
 import { Footer } from "../Footer";
-import { Home } from "../../pages/Home";
 
 import "./index.css";
 
@@ -14,7 +14,7 @@ export default function Layout(): JSX.Element {
 			</div>
 			<div className="home__clz">
 				<React.Suspense fallback="Loading...">
-					<Home />
+					<Outlet />
 				</React.Suspense>
 			</div>
 			<div className="footer__clz">

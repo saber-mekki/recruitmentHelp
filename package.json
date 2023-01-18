@@ -1,6 +1,5 @@
 {
-	"homepage": "https://saber-mekki.github.io/weather-app/",
-	"name": "weather",
+	"name": "recruitment",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
