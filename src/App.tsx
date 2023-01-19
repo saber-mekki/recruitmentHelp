@@ -5,7 +5,7 @@ import  {Home}  from './pages/Home';
 import  Contact  from './components/Contact';
 import Layout  from './components/Layout';
 import { About } from './pages/About/about';
-import { Login } from './pages/Login/login';
+ 
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" index element={<Home />} />
         <Route path="/about" index element={<About />} />
-        <Route path="/login" index element={<Login />} />
+
 
         
      </Route >

@@ -58,11 +58,7 @@ export function Header() {
 										<i className="fa fa-search" aria-hidden="true"></i>
 									</a>
 								</li>
-								<li className="nav-item d_none">
-									<a className="nav-link" href="login.txt">
-										Login
-									</a>
-								</li>
+								
 							</ul>
 						</div>
 					</nav>
