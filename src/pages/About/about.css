@@ -1,0 +1,99 @@
+
+
+p.aures {
+    position: absolute;
+    top: 35%;
+    width: 50%;
+    right: 10%;
+    text-align: justify;
+    padding-top: 10px;
+    font-size:large;
+
+}
+
+p.p1 {
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    right: 10%;
+    font-size: large;
+    text-align: justify;
+    padding-top: 5%;
+}
+p.p2 {
+    position: absolute;
+    top: 140%;
+    width: 50%;
+    right: 10%;
+    font-size: large;
+    text-align: justify;
+    padding-top: 5%;
+}
+p.p3 {
+    position: absolute;
+    top: 200%;
+    width: 50%;
+    right: 10%;
+    font-size: large;
+    text-align: justify;
+    padding-top: 5%;
+}
+p.p4 {
+    position: absolute;
+    top: 260%;
+    width: 50%;
+    right: 10%;
+    font-size: large;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.map {
+    background-image: url(./map.jpg);
+    width: 60%;
+    height: 60%;
+}
+
+h4 {
+    color: brown;
+    text-align: left;
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+
+.design {
+    background-image: url(./design.jpg);
+    width: 50%;
+    height: 50%;
+
+
+}
+
+
+.couleur {
+    background-image: url(./couleur.jpg);
+    width: 50%;
+    height: 50%;
+
+}
+
+.technologie {
+    background-image: url(./technologies.jpg);
+    width: 50%;
+    height: 50%;
+
+}
+.IT {
+    background-image: url(./it.jpg);
+    width: 50%;
+    height: 50%;
+
+}
+h4.p4{
+    color: brown;
+    text-align: left;
+    position: relative;
+    text-align: center;
+    left: 30%;
+}

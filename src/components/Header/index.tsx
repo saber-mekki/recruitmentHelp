@@ -33,7 +33,7 @@ export function Header() {
 						<div className="collapse navbar-collapse" id="navbarsExample04">
 							<ul className="navbar-nav mr-auto">
 								<li className="nav-item active">
-									<a className="nav-link" href="index.tsx">
+									<a className="nav-link" href="index">
 										Home
 									</a>
 								</li>
@@ -49,7 +49,7 @@ export function Header() {
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" href="Contact">
+									<a className="nav-link" href="contact">
 										Contact Us
 									</a>
 								</li>
