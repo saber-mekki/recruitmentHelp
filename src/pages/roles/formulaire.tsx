@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Stats } from 'fs';
 
-interface JobApplication {
+interface JobApplications {
     name: string;
     email: string;
     resume: File;
@@ -22,7 +22,7 @@ interface JobApplicationProps {
 }
 
 const JobApplication: React.FC<JobApplicationProps> = ({ match }) => {
-  const [UserData, setUserData] = useState<JobApplication>({
+  const [UserData, setUserData] = useState<JobApplications>({
       name: '',
       email: '',
       resume: new File([], ''),
