@@ -73,6 +73,16 @@
 	font-size: 14px;
 }
 
+.input1 {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 40px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+}
 .white_btn,
 .green_btn {
 	border: none;
