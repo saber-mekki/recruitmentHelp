@@ -38,18 +38,18 @@ export function Header() {
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" href="about.tsx">
+									<a className="nav-link" href="about">
 										About Us
 									</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link" href="product.tsx">
+									<a className="nav-link" href="product">
 										Products
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" href="contact.tsx">
+									<a className="nav-link" href="Contact">
 										Contact Us
 									</a>
 								</li>
@@ -59,7 +59,7 @@ export function Header() {
 									</a>
 								</li>
 								<li className="nav-item d_none">
-									<a className="nav-link" href="login.tsx">
+									<a className="nav-link" href="login.txt">
 										Login
 									</a>
 								</li>
