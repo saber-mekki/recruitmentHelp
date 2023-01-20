@@ -2,7 +2,7 @@ import './index.css';
 
 export default function  Contact(){
 	return <div className="contact_container">
-			<div className="contact_form_container">
+			 <div className="contact_form_container">
 				<div className="left">
 					<h1>Welcome</h1>
 						<button type="button" className="white_btn">
@@ -32,10 +32,10 @@ export default function  Contact(){
 							className="input"
 						/>
 						<input
-							type="password"
-							placeholder="Password"
-							name="password"
-							className="input"
+							type="texte"
+							placeholder="message"
+							name="message"
+							className="input1"
 						/>
 		
 						<button type="submit" className="green_btn">
