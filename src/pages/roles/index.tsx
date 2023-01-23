@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
+import JobView  from './job';
+import  './roles.css';
 interface Job {
   id: number;
   title: string;
@@ -56,7 +57,7 @@ const Roles = () => {
                     <td className="border px-4 py-2">{job.Salary}</td>
                     <td className="border px-4 py-2">{job.company}</td>
                     <td className="border px-4 py-2">{job.location}</td>
-                    <Link to={`/job/${job.id}`} className="bg-blue-500 text-white p-2 rounded-sm">View Job</Link>
+                    <Link to={`./job.tsx/${job.id}`} className="bg-blue-500 text-white p-2 rounded-sm">View Job</Link>
                   </tr>
                 ))}
               </tbody>
