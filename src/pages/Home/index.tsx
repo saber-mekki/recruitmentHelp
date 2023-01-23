@@ -15,7 +15,7 @@ export function Home() {
 			
 			<div  className="imag" style={{backgroundImage: `url(${background1})`}}>
 				
-			<p>vous souhaitez la bienvenue sur notre site web </p>
+			<p className="title">vous souhaitez la bienvenue sur notre site web </p>
 			<h2>importance des softs skills</h2>
 			<p className="txt"> Les softs skills représentent à la fois l’intelligence relationnelle,
 				les capacités de communication, le caractère (sociable ou timide…), 
