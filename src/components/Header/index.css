@@ -1,5 +1,5 @@
 .header-container__clz {
-    background-color: rgb(58, 56, 56);
+    background-color: #3c3d41;
     display: flex;
     justify-content: space-between;
     padding-right: 59px;
@@ -14,7 +14,7 @@
     font-family: 'Recursive', sans-serif;
     font-size: 22px;
     font-weight: 600;
-    color: rgb(211, 3, 3);
+    color: brown;
     margin-top: 20px;
 }
 .nav-item {
