@@ -42,25 +42,25 @@ const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 };
 
 
-const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-  e.preventDefault();
-  const formData = new FormData();
-  formData.append('name', UserData.name);
-  formData.append('email', UserData.email);
-  formData.append('resume', UserData.resume);
-  formData.append('coverLetter', UserData.coverLetter);
-  try {
-      await axios.post(`https://api.jobadder.com/8799/jobs/${match.params.jobId}/apply`, formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        }
-      });
-      // Show Success message here 
-    } catch (err) {
-      console.log(err);
-      // Show error message here 
-    }
-  };
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append('name', Stats.name);
+    // formData.append('email', formData.email);
+    // formData.append('resume', formData.resume);
+    // formData.append('coverLetter', formData.coverLetter);
+    try {
+        await axios.post(`https://api.jobadder.com/8799/jobs/${match.params.jobId}/apply`, formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        });
+        alert('Votre candidature a été soumise avec succès!');
+      } catch (err) {
+        console.log(err);
+        alert('Une erreur s\'est produite lors de la soumission de votre candidature.');
+      }
+    };
 
   return (
   <div className="bg-gray-200 min-h-screen">
