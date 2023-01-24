@@ -1,33 +1,31 @@
 .header-container__clz {
     background-color: #3c3d41;
     display: flex;
-    justify-content: space-between;
-    padding-right: 59px;
-    padding-left: 67px;
-    padding-left: 67px;
+    padding-right: 5%;
+    padding-left: 5%;
    
 }
 
+
 .text-header-container__clz {
-     padding: 15px;
+     padding: 5px;
     color: whitesmoke;
     font-family: 'Recursive', sans-serif;
     font-size: 22px;
-    font-weight: 600;
     color: brown;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .nav-item {
-    padding: 15px;
+    padding: 5px;
    color: rgb(107, 103, 103);
    font-family: 'Recursive', sans-serif;
    font-size: 18px;
-   font-weight: 200;
-   margin-top: 10px;
+   font-weight: 50px;
+   margin-top: 5px;
 }
 
 .logo a {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff; ;
@@ -35,12 +33,12 @@
 }
 .logo {
     background-image: url(./aures.png);
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 .img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     text-align: right;
     margin-bottom: 10px;
     margin-top: 10px;

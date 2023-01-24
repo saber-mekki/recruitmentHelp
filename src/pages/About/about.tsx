@@ -1,10 +1,12 @@
 import React from "react";
 import map from './map.jpg';
 import design from './design.jpg';
-import couleur from './couleur.jpg';
-import technologie from './technologies.jpg';
+import team from './team.jpg';
+import technologie from './technologie.jpg';
 import IT from './it.jpg';
 import "./about.css";
+import { Route } from "react-router-dom";
+import { FACTS } from "./fact";
 export function About() {
     return (
         <React.Fragment>
@@ -20,10 +22,65 @@ export function About() {
             </p>
 
             <img src={map} alt="map" className="map" />
-            <h1>
+            <h1> GET TO KNOW US</h1>
+            <div className="box">
+                <div className="card">
+                    <i className="fas fa-bars"></i>
+                    <div className="pra">
+                        
+                        <div className="container">
+                        <img src={design} alt="fact" className="fact" /> 
+                            <div className="middle">
+                            <a className="btn" href="./fact">FACTS   & FIGURES</a>
+                            <button className="btn" type="submit"></button>
+                             
+                                </div>
+                        </div>
+                        
+                       {/*  <img src={design} alt="design" className="design" />
+
+                        <h2>
+                            FACTS & FIGURES
+                        </h2>*/}
+                    </div>
+                </div>
+                <div className="card">
+                    <i className="fas fa-bars"></i>
+                    <div className="pra">
+                    <div className="container">
+                        <img src={team} alt="team" className="team" /> 
+                            <div className="middle">
+                            <a className="btn" href="./team">MANAGEMENT TEAM</a>
+                            <button className="btn" type="submit"></button>
+                                </div>
+                        </div>
+{/*
+                        <h2>
+                            MANAGEMENT TEAM
+                        </h2>*/}
+                    </div>
+                </div>
+                <div className="card">
+                    <i className="fas fa-bars"></i>
+                    <div className="pra">
+                    <div className="container">
+                        <img src={technologie} alt="technologie" className="technologie" /> 
+                            <div className="middle">
+                            <a className="btn" href="./fund">AURES FUNDAMENTALS</a>
+                            <button className="btn" type="submit"></button>
+                                </div>
+                        </div>
+                        {/*
+                        <h2>
+                            AURES FUNDAMENTALS
+                        </h2>*/}
+                    </div>
+                </div>
+            </div>
+
+            {/*   <h1>
                 NOS FONDAMENTAUX
             </h1>
-
             <h4>
                 LE DESIGN
             </h4>
@@ -65,7 +122,7 @@ export function About() {
                 THE EMPLOYEES
 
             </h1>
-
+*/}
         </React.Fragment>
     );
 }
