@@ -10,7 +10,8 @@ export function Home() {
 		<React.Fragment>
 			
 			<div  className="imag" style={{backgroundImage: `url(${background1})`}}>
-				
+				<br/>
+				<br/>
 			<p className="title">vous souhaitez la bienvenue sur notre site web </p>
 			<h2>importance des softs skills</h2>
 			<p className="txt"> Les softs skills représentent à la fois l’intelligence relationnelle,
@@ -25,6 +26,9 @@ export function Home() {
 			
 			</div>
 			<div id="myDIV">
+				<br/>
+				<br/>
+				<br/>
 			<h2>salaire</h2>
 			<p>concernant le salaire il est proportionnel selon le profil des employées</p>
 			<h2>intitulé du poste</h2>
@@ -38,6 +42,8 @@ export function Home() {
 		</div>	
 			<div  className="immag" style={{backgroundImage: `url(${background2})`}}>
 			<div className="txtt">
+				<br/>
+				
 			<h2>experience acquise pour ce poste </h2>
 			<p>notre societe ne s'interresse pas par l'experience ,l'essentiel c'est que le developpeurs maitrise bien 
 				le react, le nodejs et surtout le typescript </p>
