@@ -8,7 +8,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./index.css";
-import { FACTS } from './pages/About/fact';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

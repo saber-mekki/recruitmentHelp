@@ -3,10 +3,9 @@ import map from './map.jpg';
 import design from './design.jpg';
 import team from './team.jpg';
 import technologie from './technologie.jpg';
-import IT from './it.jpg';
+
 import "./about.css";
-import { Route } from "react-router-dom";
-import { FACTS } from "./fact";
+
 export function About() {
     return (
         <React.Fragment>
@@ -27,17 +26,17 @@ export function About() {
                 <div className="card">
                     <i className="fas fa-bars"></i>
                     <div className="pra">
-                        
+
                         <div className="container">
-                        <img src={design} alt="fact" className="fact" /> 
+                            <img src={design} alt="fact" className="fact" />
                             <div className="middle">
-                            <a className="btn" href="./fact">FACTS   & FIGURES</a>
-                            <button className="btn" type="submit"></button>
-                             
-                                </div>
+                                <a className="btn" href="./fact">FACTS   & FIGURES</a>
+                                <button className="btn" type="submit"></button>
+
+                            </div>
                         </div>
-                        
-                       {/*  <img src={design} alt="design" className="design" />
+
+                        {/*  <img src={design} alt="design" className="design" />
 
                         <h2>
                             FACTS & FIGURES
@@ -47,14 +46,14 @@ export function About() {
                 <div className="card">
                     <i className="fas fa-bars"></i>
                     <div className="pra">
-                    <div className="container">
-                        <img src={team} alt="team" className="team" /> 
+                        <div className="container">
+                            <img src={team} alt="team" className="team" />
                             <div className="middle">
-                            <a className="btn" href="./team">MANAGEMENT TEAM</a>
-                            <button className="btn" type="submit"></button>
-                                </div>
+                                <a className="btn" href="./team">MANAGEMENT TEAM</a>
+                                <button className="btn" type="submit"></button>
+                            </div>
                         </div>
-{/*
+                        {/*
                         <h2>
                             MANAGEMENT TEAM
                         </h2>*/}
@@ -63,12 +62,12 @@ export function About() {
                 <div className="card">
                     <i className="fas fa-bars"></i>
                     <div className="pra">
-                    <div className="container">
-                        <img src={technologie} alt="technologie" className="technologie" /> 
+                        <div className="container">
+                            <img src={technologie} alt="technologie" className="technologie" />
                             <div className="middle">
-                            <a className="btn" href="./fund">AURES FUNDAMENTALS</a>
-                            <button className="btn" type="submit"></button>
-                                </div>
+                                <a className="btn" href="./fund">AURES FUNDAMENTALS</a>
+                                <button className="btn" type="submit"></button>
+                            </div>
                         </div>
                         {/*
                         <h2>
