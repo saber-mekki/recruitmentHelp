@@ -1,41 +1,11 @@
-.card__clz {
-	margin-top: 59px;
-	border-radius: 30px!important;
-    background-color: rgb(34, 5, 161)!important;
-}
 
-.temp-hum{
-    padding: 15px;
-    color: whitesmoke;
-    font-family: 'Recursive', sans-serif;
-   font-size: 24px;
-}
-.temp__clz{
-    display: flex;
-}
-
-.time__clz{
-padding: 15px;
-    color: whitesmoke;
-    font-family: 'Recursive', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.main__clz{
-    padding: 15px;
-    color: whitesmoke;
-    font-family: 'Recursive', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
 .imag{
     
     width: 1295px;
-    height: 500px;
+    height: 400px;
     text-align: center;
     margin-left: 0%;
-    background-size: 1295px 500px;
+    background-size: 1295px 400px;
     background-repeat: no-repeat;
   
   
@@ -44,18 +14,19 @@ padding: 15px;
 .immag{
     
     width: 1295px;
-    height: 500px;
+    height: 400px;
     text-align: center;
     margin-left: 0%;
   
-    background-size: 1295px 500px;
+    background-size: 1295px 400px;
     background-repeat: no-repeat;
   
 
 }
 #myDIV {
+
     width: 1295px;
-    height: 300px;
+    height: 400px;
     background: rgb(136, 103, 103);
     animation: mymove 5s infinite;
     text-align: center;
@@ -73,7 +44,8 @@ padding: 15px;
 
   }
   .title{
+
     font-size:30px;text-align:center; line-height:1.5em; 
-  padding-bottom:45px; font-family:"Playfair Display", serif; 
+  padding-bottom:0px; font-family:"Playfair Display", serif; 
   text-transform:uppercase;letter-spacing: 2px; color:rgb(206, 21, 21);
 }
