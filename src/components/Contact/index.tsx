@@ -1,8 +1,8 @@
 import './index.css';
-
+import Contactt from './Contact';
 export default function  Contact(){
 	return <div className="contact_container">
-			 <div className="contact_form_container">
+			<div className="contact_form_container">
 				<div className="left">
 					<h1>Welcome</h1>
 						<button type="button" className="white_btn">
@@ -13,30 +13,18 @@ export default function  Contact(){
 				<div className="right">
 					<form className="form_container"  >
 						<h1>contact</h1>
+						<div className="right">
+						<Contactt nom='FirstName'/>
+						<Contactt nom='LastName'/>
+						<Contactt nom='Email'/>
 						<input
 							type="text"
-							placeholder="First Name"
-							name="firstName"
-							className="input"
-						/>
-						<input
-							type="text"
-							placeholder="Last Name"
-							name="lastName"
-							className="input"
-						/>
-						<input
-							type="email"
-							placeholder="Email"
-							name="email"
-							className="input"
-						/>
-						<input
-							type="texte"
-							placeholder="message"
-							name="message"
+							placeholder="Message"
+							name="Message"
 							className="input1"
 						/>
+						
+						</div>
 		
 						<button type="submit" className="green_btn">
 							ok
