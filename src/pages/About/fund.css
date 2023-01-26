@@ -1,41 +1,49 @@
 p.pr1 {
     position: absolute;
-    top: 25%;
+    top: 35%;
     width: 50%;
     right:22%;
     font-size: large;
     text-align: justify;
     padding-top: 5%;
+    padding-left: 2%;
+
 }
 
 p.pr2 {
     position: absolute;
-    top: 80%;
+    top: 90%;
     width: 50%;
     right: 22%;
     font-size: large;
     text-align: justify;
     padding-top: 5%;
+    padding-left: 2%;
+
 }
 
 p.pr3 {
     position: absolute;
-    top: 130%;
+    top: 145%;
     width: 50%;
     right: 22%;
     font-size: large;
     text-align: justify;
     padding-top: 5%;
+    padding-left: 2%;
+
+
 }
 
 p.pr4 {
     position: absolute;
-    top: 170%;
+    top: 200%;
     width: 50%;
     right: 22%;
     font-size: large;
     text-align: justify;
     padding-top: 5%;
+    padding-left: 2%;
 }
 
 
@@ -47,7 +55,18 @@ h4 {
     position: relative;
     left: 10%;
     text-align: center;
-}
+    padding-top:5% ;
+
+    }
+ h4.p4{
+    color: brown;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    padding-top:5% ;
+    padding-left: 20%;
+ }
 
 .design {
     background-image: url(./design.jpg);

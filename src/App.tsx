@@ -7,6 +7,7 @@ import Layout  from './components/Layout';
 import { About } from './pages/About/about';
 import { FACTS } from './pages/About/fact';
 import { Fund } from './pages/About/fund';
+import { Team } from './pages/About/team';
 
  
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/about" index element={<About />} />
         <Route path='/fact' index element={<FACTS />}/>
         <Route path='/fund' index element={<Fund />}/>
+        <Route path='/team' index element={<Team />}/>
+
 
 
         
