@@ -7,6 +7,8 @@ const Contact = lazy (() => import ('./components/Contact'));
 const Layout = lazy (() => import ('./components/Layout')); 
 const JobView = lazy (() => import ('./pages/Roles/JobView')); 
 const InterviewsPage = lazy( ()=>import('./pages/entretiens/entretiens')) ;
+const CandidatesPage = lazy( ()=>import('./pages/candidates/candidates')) ;
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/JobView/:id" index element ={<JobView/>} />
         <Route path="/roles" index element={<Roles/>} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/candidate" element={<CandidatesPage />} />
         <Route path="/entretiens" element={<InterviewsPage />} />
         <Route path="/*" index element={<Home />} />
         <Route></Route>

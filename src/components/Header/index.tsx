@@ -2,7 +2,6 @@ import React from "react";
 import logo from './aures.png';
 
 import "./index.css";
-console.log(logo);
 export function Header() {
     return (
 			<div className="header-container__clz">
@@ -46,6 +45,21 @@ export function Header() {
 								<li className="nav-item">
 									<a className="nav-link" href="product">
 										Products
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link" href="roles">
+										roles
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link" href="candidates">
+									Candidates
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link" href="entretiens">
+									Entretiens
 									</a>
 								</li>
 								<li className="nav-item">
