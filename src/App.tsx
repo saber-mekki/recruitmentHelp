@@ -1,30 +1,26 @@
-import React from 'react';
+
+import React , { lazy } from "react";
 import { Routes, Route,BrowserRouter} from 'react-router-dom';
-
 import  {Home}  from './pages/Home';
-import  Contact  from './components/Contact';
-import Layout  from './components/Layout';
-import { About } from './pages/About/about';
-import { FACTS } from './pages/About/fact';
-import { Fund } from './pages/About/fund';
-
- 
-
+const Roles = lazy (() => import ('./pages/Roles')); 
+const Contact = lazy (() => import ('./components/Contact')); 
+const Layout = lazy (() => import ('./components/Layout')); 
+const JobView = lazy (() => import ('./pages/Roles/JobView')); 
+const InterviewsPage = lazy( ()=>import('./pages/entretiens/entretiens')) ;
 
 function App() {
   return (
     <BrowserRouter ><Routes>
       <Route   element={<Layout />} >
         <Route path="/" index element={<Home />} />
+        <Route path="/JobView/:id" index element ={<JobView/>} />
+        <Route path="/roles" index element={<Roles/>} />
         <Route path="/contact" element={<Contact />} />
-        <Route  path="/*" index element={<Home />} />
-        <Route path="/about" index element={<About />} />
-        <Route path='/fact' index element={<FACTS />}/>
-        <Route path='/fund' index element={<Fund />}/>
-
-
-        
+        <Route path="/entretiens" element={<InterviewsPage />} />
+        <Route path="/*" index element={<Home />} />
+        <Route></Route>
      </Route >
+    
     </Routes></BrowserRouter>
     
   );
