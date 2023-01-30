@@ -44,8 +44,9 @@ export function Team() {
               
             </div>*/}
             <h2 >Our Team</h2>
+            <div>
             <div className="row">
-                <div className="column">
+                <div className="col-4">
                     <div className="card">
                         <img src={emp1} alt="emp1" className="emp1" />
                         <div className="container">
@@ -58,7 +59,7 @@ export function Team() {
                     </div>
                 </div>
 
-                <div className="column">
+                <div className="col-4">
                     <div className="card">
                         <img src={emp2} alt="emp2" className="emp2" />
                         <div className="container">
@@ -71,7 +72,7 @@ export function Team() {
                     </div>
                 </div>
 
-                <div className="column">
+                <div className="col-4">
                     <div className="card">
                         <img src={emp3} alt="emp3" className="emp3" />
                         <div className="container">
@@ -83,7 +84,7 @@ export function Team() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></div>
         </React.Fragment>
     );
 }
